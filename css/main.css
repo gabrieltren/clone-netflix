@@ -1,0 +1,82 @@
+@font-face{
+    font-family: 'Bebas-Neue-Bold';
+    src: url('./../font/BebasNeue-Bold.otf');
+}
+
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+header .logo-netflix{
+    color: var(--vermelho);
+    font-family: 'Bebas-Neue-Bold',Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-left: 15px;
+    
+}
+
+
+header div nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 25px;
+    
+    transition:  2s, ease;
+    
+}
+
+.selec-nav:hover{
+    color: #FFF;
+    background: rgba(157, 142, 200, 0.10);
+    font-weight: bold;
+}
+
+header div section{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+header div section a{
+    text-decoration: none;
+    color: #AAA;
+    margin-left: 15px;
+}
+header div section a i{
+    width: 25px;
+}
+header div section .user{
+    margin-left: 15px;
+    color: #AAA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header div section .user p{
+    margin-left: 10px;
+}
+header div  section .user img{
+    width: 30px;
+}
+
