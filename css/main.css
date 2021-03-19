@@ -40,14 +40,13 @@ header div nav a{
     color: #AAA;
     margin-right: 25px;
     
-    transition:  2s, ease;
-    
 }
 
 .selec-nav:hover{
     color: #FFF;
     background: rgba(157, 142, 200, 0.10);
     font-weight: bold;
+    
 }
 
 header div section{
@@ -80,3 +79,47 @@ header div  section .user img{
     width: 30px;
 }
 
+.search-box{
+    background: var(--preta);
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 10px;
+    
+}
+
+.search-box:hover > .search-text{
+    width: 200px;
+    color: #AAA;
+    padding: 1px 6px;
+}
+.search-box:hover >.search-btn{
+    background: #AAA;
+    color: black;
+}
+
+.search-btn{
+    color: #AAA;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--preta);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    transition: 0.4s;
+}
+.search-text{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    border-radius: 25px;
+    width: 0px;
+}
