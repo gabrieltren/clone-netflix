@@ -253,7 +253,7 @@ header div  section .user img{
 .footer-site .titulo-footer a{
     text-decoration: none;
     color: #757575;
-    font-size: 16px;
+    font-size: 17px;
     font-family: 'Trebuchet MS',Arial, Helvetica, sans-serif;
 }
 .footer-site .titulo-footer a:hover{
@@ -261,7 +261,7 @@ header div  section .user img{
 }
 .footer-site .nav-list .ul-footer{
     list-style: none;
-    margin-top: 10px;
+    margin-top: 30px;
     max-width: 1000px;
     box-sizing: border-box;
 
