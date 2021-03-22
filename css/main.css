@@ -242,3 +242,47 @@ header div  section .user img{
     margin-bottom: 10px;
     margin-left: 20px;
 }
+
+.footer-site{
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 30px;
+    align-items: left;
+    margin-bottom: 25px;
+}
+.footer-site .titulo-footer a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 16px;
+    font-family: 'Trebuchet MS',Arial, Helvetica, sans-serif;
+}
+.footer-site .titulo-footer a:hover{
+    text-decoration: underline;
+}
+.footer-site .nav-list .ul-footer{
+    list-style: none;
+    margin-top: 10px;
+    max-width: 1000px;
+    box-sizing: border-box;
+
+}
+.footer-site .nav-list .ul-footer .item-footer{
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 24.5%;
+    padding-right: 12px;
+    vertical-align: top;
+}
+.footer-site .nav-list .ul-footer a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 13px;
+    font-family: 'Trebuchet MS',Arial, Helvetica, sans-serif;
+    
+}
+.footer-site .nav-list .ul-footer a:hover{
+    text-decoration: underline;
+}
