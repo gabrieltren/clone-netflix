@@ -55,6 +55,7 @@ header div section{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content:center;
 }
 
 
@@ -75,6 +76,7 @@ header div section .user{
 }
 header div section .user p{
     margin-left: 10px;
+    
 }
 header div  section .user img{
     width: 30px;
@@ -89,8 +91,8 @@ header div  section .user img{
 }
 
 .search-box:hover > .search-text{
-    width: 150px;
-    color: rgba(170, 170, 170, 0.146);
+    width: 140px;
+    color: rgba(255, 255, 255, 0.7);
     padding: 1px 6px;
     font-family: Arial, Helvetica, sans-serif; ;
 }
@@ -186,6 +188,7 @@ header div  section .user img{
 
 /*Carrosel*/
 
+/*
 .recente-assistido{
     margin: auto;
     width:98%;
@@ -199,6 +202,7 @@ header div  section .user img{
     margin-left: 20px;
 
 }
+*/
 .box-filme{
     width:100%;
     height:100%;
@@ -208,7 +212,7 @@ header div  section .user img{
 }
 .box-final{
     width: 100%;
-    padding-top: 50%;
+    padding-top: 20%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -240,7 +244,7 @@ header div  section .user img{
     font-family: 'Trebuchet MS',Arial, Helvetica, sans-serif;
     font-size: 30px;
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .footer-site{
